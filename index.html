@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pb-br">
+    <head>
+        <title>Decodificador de texto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Style -->
+        <link href="style.css" rel="stylesheet">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+    <body>
+        <header>
+            <img class="logoAlura" src="./assets/logoalura.png" alt="Logo da Alura">
+        </header>
+    <main>
+
+        <section>
+            <textarea name="" id="input" class="text-area" cols="10" rows="10" placeholder="Digite seu texto aqui"></textarea>
+            <div>
+                <div class="info">
+                    <span class="info--icon">🛈</span>
+                    <span>Apenas letras minúsculas e sem acentos.</span>
+                </div>
+
+
+                <div id="buttons">
+                    <i></i>
+                    <button id="cripto">Criptografar</button>
+                    <button id="descripto">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        
+        <aside>
+            <div id="no-message" class="no-message">
+                <img src="/assets/pessoacuriosa.png">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografa.</p>
+            </div>
+            <div id="message">
+                <textarea readonly id="output"></textarea>
+                <button id="copiar">Copiar</button>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Feito com amor 💜 Suami Rocha</p>
+    </footer>
+    <script src="/script.js">
+
+    </script>
+    </body>
+</html>

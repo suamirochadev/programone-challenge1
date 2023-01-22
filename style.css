@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+header {
+  padding: 3vh 3vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vh 3vw 8vh 14vh;
+  height: 85vh;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+  gap: 20px;
+}
+
+main section #input {
+  font-weight: 400;
+  font-size: 32px;
+  color: #0a3871;
+  background-color: transparent;
+  resize: none;
+  border: none;
+  height: 100%;
+  padding: 25px;
+}
+
+main section #input {
+  font-weight: 400;
+  font-size: 32px;
+  color: #0a3871;
+  background-color: transparent;
+  resize: none;
+  border: none;
+  height: 100%;
+  padding: 25px;
+}
+
+main section #input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border: 1px solid #0a3871;
+  border-radius: 32px;
+}
+
+main section .info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.info--icon {
+  transform: scale(1.5);
+}
+
+main section .info span:last-child {
+  font-size: 16px;
+  color: #495057;
+}
+
+#buttons button{
+  margin: 10px;
+}
+
+main section div #buttons {
+  display: flex;
+}
+
+main section div #buttons button:first-of-type {
+  background: #0a3871;
+  border-radius: 24px;
+  width: 337px;
+  height: 67px;
+  padding: 24px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+main section div button:last-of-type {
+  background: transparent;
+  border-radius: 24px;
+  width: 337px;
+  height: 67px;
+  padding: 24px;
+  color: #0a3871;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-color: #0a3871;
+  border-radius: 24px;
+  border-width: 1px;
+}
+
+main aside {
+  background-color: white;
+  border-radius: 32px;
+  height: 90vh;
+  position: absolute;
+  bottom: 5vh;
+  left: 72vw;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  padding: 20px;
+}
+
+.no-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.no-message h1 {
+  color: #343a40;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.no-message p {
+  color: #343a40;
+  font-size: 16px;
+  text-align: center;
+}
+
+main aside #message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 86%;
+  width: 80%;
+}
+
+main aside #message textarea {
+  width: 100%;
+  height: 83%;
+  border: none;
+  resize: none;
+}
+
+main aside #message textarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+main aside #message button {
+  background: transparent;
+  border-radius: 24px;
+  width: 85%;
+  height: 67px;
+  padding: 24px;
+  color: #0a3871;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-color: #0a3871;
+  border-radius: 24px;
+  border-width: 1px;
+}
+
+@media (max-width: 1440px) {
+  main {
+    padding: 2vh 3vw 8vh 7vw;
+  }
+
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+    gap: 20px;
+  }
+
+  main aside {
+    background-color: white;
+    border-radius: 32px;
+    height: 90vh;
+    position: absolute;
+    bottom: 5vh;
+    left: 64vw;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  main aside div #no-message img {
+    width: 250px;
+  }
+
+  main aside div #no-message h1 {
+    font-size: 24px;
+  }
+
+  main aside div #no-message p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh 4vw;
+    gap: 50 px;
+    height: 120vh;
+    width: 99vw;
+  }
+
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    gap: 20px;
+  }
+
+  main section div #buttons {
+    justify-content: space-between;
+  }
+
+  main section div #butons button:first-of-type,
+  main section div button:last-of-type {
+    width: 50%;
+  }
+
+  main aside {
+    height: 90vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+  }
+
+  main aside div #no-message img {
+    display: none;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) and (max-height: 700px) {
+  main section {
+    height: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh 4vw;
+    gap: 50px;
+    height: 150vh;
+    width: 99vw;
+  }
+
+  main section div #buttons {
+    flex-direction: column;
+  }
+
+  main section div #buttons button:first-of-type,
+  main section div button:last-of-type {
+    width: 100%;
+  }
+}
