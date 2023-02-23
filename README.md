@@ -17,7 +17,7 @@ Para esse desafio, você pode usar HTML e Javascript sem o uso de frameworks.
 
 ![](https://media.giphy.com/media/jlVytxGomEGCUGktK5/giphy.gif)
 
-🌐 [Site Challenge Decodificador de Texto](https://suamirocha.github.io/primeiro-challenge-programaOne/)
+🌐 [Site Challenge Decodificador de Texto](https://suamirocha.github.io/Oracle_Alura_Programa_T4_ONE_Challenge_1/)
 
 ### Badge
 ![](https://cdn.discordapp.com/attachments/1045720339772088342/1066845892583366676/cms2Ffiles2F102242F1671211139Prancheta_3.png)
